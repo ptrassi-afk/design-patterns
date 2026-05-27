@@ -1,3 +1,6 @@
+# Created by https://www.toptal.com/developers/gitignore/api/c++,cmake,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=c++,cmake,visualstudiocode
+
 # Prerequisites
 *.d
 
@@ -23,7 +26,6 @@
 *.dll
 *.so.*
 
-
 # Fortran module files
 *.mod
 *.smod
@@ -45,12 +47,23 @@ Build/
 build-*/
 
 # CMake generated files
-CMakeFiles/
+CMakeLists.txt.user
 CMakeCache.txt
-cmake_install.cmake
+CMakeFiles
+CMakeFiles/
+CMakeScripts
 Makefile
+cmake_install.cmake
 install_manifest.txt
 compile_commands.json
+CTestTestfile.cmake
+_deps
+
+# CMake Patch
+CMakeUserPresets.json
+
+# External projects
+*-prefix/
 
 # Temporary files
 *.tmp
@@ -65,5 +78,27 @@ vcpkg_installed/
 *.dwo
 
 # test output & cache
+Testing
 Testing/
 .cache/
+
+# VisualStudioCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+# VisualStudioCode Patch
+# Ignore all local history of files
+.history
+.ionide
+
+# End of https://www.toptal.com/developers/gitignore/api/c++,cmake,visualstudiocode
