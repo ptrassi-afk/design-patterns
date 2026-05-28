@@ -1,6 +1,6 @@
 <!-- * **Seja Honesto:** Se alguma parte do projeto ainda não está pronta, você pode criar uma seção de `## 🛠️ Próximos Passos` ou `## 🚧 Em Desenvolvimento` no final, listando o que você ainda pretende implementar. Isso mostra que você é organizado e planeja suas tarefas! -->
 
-# 🛠️ [Design Patterns in C++]
+# 🛠️ Design Patterns in C++
 
 Practical implementation of the main design patterns (GoF) in modern C++.
 
@@ -78,7 +78,7 @@ Whether it's an HTTP or SSH key, we'll use this one here, but the choice is your
     .\build\Debug\NomeDoExecutavel.exe "In developing..."
     ```
 
-## 📜 References
+## 🔗 References and Credits
 
-1. Refactoring Guru: [https://refactoring.guru/](https://refactoring.guru/).
-2. Google Gemini.
+1. Refactoring Guru: [https://refactoring.guru/](https://refactoring.guru/) - Excellent visual and theoretical explanation of the pattern.
+2. Google Gemini - Analysis and explanation of code, and refactoring of documentation.
