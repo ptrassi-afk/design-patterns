@@ -80,5 +80,5 @@ Whether it's an HTTP or SSH key, we'll use this one here, but the choice is your
 
 ## 🔗 References and Credits
 
-1. Refactoring Guru: [https://refactoring.guru/](https://refactoring.guru/) - Excellent visual and theoretical explanation of the pattern.
+1. Refactoring Guru: [https://refactoring.guru/](https://refactoring.guru/) - Excellent visual and theoretical explanation of design patterns.
 2. Google Gemini - Analysis and explanation of code, and refactoring of documentation.
