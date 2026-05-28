@@ -8,7 +8,9 @@ Practical implementation of the main design patterns (GoF) in modern C++.
 
 ## 📌 About the Project
 
-This repository was created with the goal of studying and practically applying the classic concepts of Software Engineering design patterns cataloged by the GoF (Gang of Four).
+This repository was created with the goal of studying and applying, in practice, the classic design patterns presented in the Software Engineering course at the Federal Technological University of Paraná (UTFPR), in the Bachelor's degree program in Computer Science.
+
+The implemented examples are based on the GoF (Gang of Four) pattern catalog—a term used to refer to the authors Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides, responsible for the book Design Patterns: Elements of Reusable Object-Oriented Software (1994), which describes 23 classic object-oriented software development patterns.
 
 > **OBS:** We will use one design pattern from each category.
 
