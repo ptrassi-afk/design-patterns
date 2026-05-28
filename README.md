@@ -1,5 +1,3 @@
-<!-- * **Seja Honesto:** Se alguma parte do projeto ainda não está pronta, você pode criar uma seção de `## 🛠️ Próximos Passos` ou `## 🚧 Em Desenvolvimento` no final, listando o que você ainda pretende implementar. Isso mostra que você é organizado e planeja suas tarefas! -->
-
 # 🛠️ Design Patterns in C++
 
 Practical implementation of the main design patterns (GoF) in modern C++.
