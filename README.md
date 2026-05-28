@@ -10,7 +10,7 @@ Practical implementation of the main design patterns (GoF) in modern C++.
 
 This repository was created with the goal of studying and practically applying the classic concepts of Software Engineering design patterns cataloged by the GoF (Gang of Four).
 
-> **OBS:** We will use one design pattern from each category:
+> **OBS:** We will use one design pattern from each category.
 
 ### 🏗️ Implemented Standards
 
