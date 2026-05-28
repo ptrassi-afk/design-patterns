@@ -2,8 +2,6 @@
 
 Practical implementation of the main design patterns (GoF) in modern C++.
 
----
-
 ## 📌 About the Project
 
 This repository was created with the goal of studying and applying, in practice, the classic design patterns presented in the Software Engineering course at the Federal Technological University of Paraná (UTFPR), in the Bachelor's degree program in Computer Science.
@@ -23,16 +21,12 @@ The project is divided into three categories of design patterns:
 * **Behavioral:**
   * `Observer` (Used to establish reactive and indirect communication between parts of the system without creating a strong coupling).
 
----
-
 ## 🚀 Technologies and Tools
 
 * **Language:** C++ (C++17 or C++20 standard)
 * **Building system:** CMake (version 3.10+) / CMake Tools (version 1.20+)
 * **Compiler:** G++ (part of GCC - GNU Compiler Collection)
 * **Recommended IDE:** VSCode
-
----
 
 ## 💻 How to Execute the Project
 
