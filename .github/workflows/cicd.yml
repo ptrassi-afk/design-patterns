@@ -1,0 +1,69 @@
+name: C++ CI/CD Pipeline
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential cmake
+
+      - name: Configure the project (CMake)
+        run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Debug
+
+      - name: Compile the code
+        run: cmake --build build
+
+      - name: Standard rotation strategy
+        run: ./build/src/behavioral/strategy/strategy
+
+      - name: Standard rotation singleton
+        run: ./build/src/creational/singleton/singleton
+
+      - name: Standard rotation adapter
+        run: ./build/src/structural/adapter/adapter
+
+  delivery:
+    needs: build-and-test
+    runs-on: ubuntu-latest
+
+    if: github.ref == 'refs/heads/main'
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential cmake
+
+      - name: Configure CMake (Release)
+        run: cmake -S . -B build_release -DCMAKE_BUILD_TYPE=Release
+
+      - name: Compile final version
+        run: cmake --build build_release
+
+      - name: Package executables
+        run: |
+          mkdir -p standard_package
+          cp build_release/src/behavioral/strategy/strategy standard_package/
+          cp build_release/src/creational/singleton/singleton standard_package/
+          cp build_release/src/structural/adapter/adapter standard_package/
+
+      - name: Make available for download (Artifact)
+        uses: actions/upload-artifact@v4
+        with:
+          name: DesignPatterns-Executable-Linux
+          path: standard_package/
