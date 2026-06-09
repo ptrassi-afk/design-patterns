@@ -15,11 +15,11 @@ The implemented examples are based on the GoF (Gang of Four) pattern catalog—a
 The project is divided into three categories of design patterns:
 
 * **Creational:**
-  * `Singleton` (Used to ensure that a class has only one instance throughout the application's lifecycle and provides a global access point to it).
+  * `Singleton` (The Singleton pattern ensures that a class has only one instance throughout the application's lifecycle and provides a global access point for it).
 * **Structural:**
-  * `Adapter` (Used to integrate legacy systems or third-party libraries).
+  * `Adapter` (The Adapter pattern converts a class's interface into another interface expected by the client, allowing classes with incompatible interfaces to work together).
 * **Behavioral:**
-  * `Observer` (Used to establish reactive and indirect communication between parts of the system without creating a strong coupling).
+  * `Strategy` (The Strategy pattern encapsulates different algorithms for the same task in separate classes that inherit from a common interface).
 
 ## 🚀 Technologies and Tools
 
