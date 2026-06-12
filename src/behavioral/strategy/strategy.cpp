@@ -8,7 +8,7 @@ void Area_Calculator::setOperation(Operation *strategy)
 
 int Area_Calculator::executeOperation(int a, int b)
 {
-    return strategy->execute(a, b);
+    return this->strategy->execute(a, b);
 }
 
 int Diamond::execute(int a, int b)
