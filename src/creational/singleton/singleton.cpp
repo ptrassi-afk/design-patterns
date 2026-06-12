@@ -3,10 +3,7 @@
 
 Constant *Constant::instance = nullptr;
 
-Constant::Constant()
-{
-    pi = 3.14159265359;
-}
+Constant::Constant() : pi(3.14159265359) {};
 
 Constant *Constant::getInstance()
 {
