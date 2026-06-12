@@ -49,13 +49,15 @@ Whether it's an HTTP or SSH key, we'll use this one here, but the choice is your
 2. **Generate the compilation files using CMake:**
 
     ```bash
-    cmake -B build "In developing..."
+    mkdir build
+    cd build
     ```
 
 3. **Compile the project:**
 
     ```bash
-    cmake --build build "In developing..."
+    cmake ..
+    cmake --build .
     ```
 
 4. **Run the generated binary:**
@@ -63,14 +65,26 @@ Whether it's an HTTP or SSH key, we'll use this one here, but the choice is your
 * **On Linux/Mac:**
 
     ```bash
-    ./build/NomeDoExecutavel "In developing..."
+    ./src/Pattern_Category/Pattern/Pattern
     ```
+
+  * **Example:**
+
+      ```bash
+      ./src/behavioral/strategy/strategy
+      ```
 
 * **On Windows:**
 
     ```bash
-    .\build\Debug\NomeDoExecutavel.exe "In developing..."
+    ./src/Pattern_Category/Pattern/Pattern.exe
     ```
+
+  * **Example:**
+
+      ```bash
+      ./src/behavioral/strategy/strategy.exe
+      ```
 
 ## 🔗 References and Credits
 
