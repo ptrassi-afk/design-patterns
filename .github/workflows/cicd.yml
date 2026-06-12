@@ -26,7 +26,12 @@ jobs:
         run: cmake --build build
 
       - name: Standard rotation strategy
-        run: echo "1" | ./build/src/behavioral/strategy/strategy
+        run:  |
+          ./build/src/behavioral/strategy/strategy <<EOF
+          1
+          24
+          6
+          EOF
 
       - name: Standard rotation singleton
         run: ./build/src/creational/singleton/singleton
