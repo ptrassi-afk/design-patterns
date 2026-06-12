@@ -30,7 +30,7 @@ The declarative architecture of the pattern was designed to ensure decoupling be
 
 **Computational Efficiency and Modularity:** By postponing the decision of which algorithm to use until runtime, the system avoids the overhead of complex conditional structures (such as lengthy if-else or switch-case statements) and unnecessary instantiations in memory. Coupling occurs strictly through the abstract interface, ensuring that system resources are allocated on demand, according to user interactions.
 
-For details on business rules, mathematical logic, and concrete implementation of these components, please refer to the document at: [README de Implementação do Padrão Strategy](/src/behavioral/strategy/README.md).
+For details on business rules, mathematical logic, and concrete implementation of these components, please refer to the document at: [README for Implementing the Strategy Standard](/src/behavioral/strategy/README.md).
 
 ## References and Credits
 
